@@ -48,7 +48,7 @@ cd server\rust-server
 cargo build --release --locked
 
 # Compare hashes against SHA256SUMS.txt from the release
-Get-FileHash ..\..\..\Win32\Release\neverlose.dll, ..\..\..\Win32\Release\injector.exe, target\release\neverlose-server.exe -Algorithm SHA256
+Get-FileHash Release\neverlose.dll, Release\injector.exe, server\rust-server\target\release\neverlose-server.exe -Algorithm SHA256
 ```
 
 If your hashes match `SHA256SUMS.txt`, the release binary is identical to what you built from source.
