@@ -34,7 +34,7 @@ jobs:
         run: |
           msbuild neverlose.sln `
             /p:Configuration=Release `
-            /p:Platform=Win32 `
+            /p:Platform=x86 `
             /p:PlatformToolset=v145 `
             /p:UseDebugLibraries=false `
             /p:DebugInformationFormat=None `
