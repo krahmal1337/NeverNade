@@ -13,9 +13,7 @@ Download all three binaries and place them in the same folder:
 
 | File | Purpose |
 |------|---------|
-| `neverlose.dll` | Main module, x86 |
-| `injector.exe` | DLL injector, x86, requires administrator permissions |
-| `neverlose-server.exe` | Local server, x64 |
+| `neverlose.dll` | Main module with server, x86 |
 
 ## About reproducibility
 
