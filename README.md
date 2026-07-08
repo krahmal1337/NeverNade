@@ -35,8 +35,8 @@ The official release artifacts should be treated as the binaries produced by the
 To build the project yourself, clone the source repository:
 
 ```powershell
-git clone https://git.femboy.tw/root/FemboyLose.git
-cd FemboyLose
+git clone https://gitlab.com/nademafia/never-nade.git
+cd never-nade
 ```
 
 Then follow the build instructions in the source repository README.
@@ -47,4 +47,4 @@ Local builds are useful for auditing, modifying, or running your own copy of the
 
 All source code lives here:
 
-https://git.femboy.tw/root/FemboyLose
+https://gitlab.com/nademafia/never-nade
